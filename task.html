@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="defoult-form contact-3 pt-3 pl-3 pr-3 pb-3 light-form">
+            <div class="section-title">
+                <h4 class="">Müraciət edin</h4>
+            </div>
+
+            <form id="contact-form" action="" method="" onsubmit="validateForm(event)">
+                <div class="single-contact-inner">
+                    <div class="single-contact-form w-100">
+                        <div class="contact-box name">
+                            <input type="text" name="name" placeholder="Ad Soyad">
+                            <p class="error-mess name-error">Ad soyad daxil
+                                edin!</p>
+                        </div>
+
+                        <div class="contact-box email">
+                            <input type="email" name="email" placeholder="E-poçt">
+                        </div>
+                        <div class="contact-box subject">
+                            <div class="input-group">
+                                <span class="countrycode">+994</span>
+                                <input type="text" class="form-input" placeholder="(_ _) _ _ _-_ _-_ _" id="phone"
+                                    name="phone">
+
+                            </div>
+                            <p class="error-mess phone-error">Nömrə daxil edin!
+                            </p>
+                        </div>
+                        <div class="contact-box subject">
+                            <div class="input-group subject-select">
+                                <select name="specialty" id="specialty">
+                                    <option value="" hidden selected disabled>
+                                        İxtisasınızı seçin</option>
+                                    <option value="Həkim"> Həkim</option>
+                                    <option value="Tibb tələbəsi"> Tibb tələbəsi
+                                    </option>
+                                    <option value="Rezident"> Rezident</option>
+                                    <option value="Orta tibb işçisi"> Orta tibb
+                                        işçisi</option>
+                                    <option value="Heç biri"> Heç biri </option>
+                                </select>
+                                <p class="error-mess specialty-error">İxtisas
+                                    seçin!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-btn">
+                    <button type="submit" class="htc__btn btn--theme">Göndər</button>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</body>
+
+
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</html>
